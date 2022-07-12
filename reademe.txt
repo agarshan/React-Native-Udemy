@@ -1,0 +1,5 @@
+Note 1
+part 1 - import libraries we need to create a componenet
+part 2 - Create a component - a function that returns some 'JSX'
+part 3 - create stylesheet to style our component
+part 4 - Export the component so we can use it elsewhere in our project
