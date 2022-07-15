@@ -8,7 +8,7 @@ import { Text, StyleSheet, View, Button, TouchableOpacity } from 'react-native';
 // const HomeScreen = ({navigation}) => { - we can use this method as well  to condense the code after es 2015
 const HomeScreen = (props) => {
   return (
-    <View>
+  <View>
   <Text style={styles.text}>Hi There</Text>
   <Button 
   onPress={() => props.navigation.navigate('Components')}
@@ -21,6 +21,14 @@ const HomeScreen = (props) => {
   <Button 
   onPress={() => props.navigation.navigate('Image')}
   title='Go to Images Demo'/>
+
+<Button 
+  onPress={() => props.navigation.navigate('Counter')}
+  title='Go to Counter Demo'/>
+
+<Button 
+  onPress={() => props.navigation.navigate('Counter')}
+  title='Go to Color Demo'/>
   </View>
   );
 };
